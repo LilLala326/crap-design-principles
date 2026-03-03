@@ -1,0 +1,84 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+form div {
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+/* CSS for Submit Button */
+input[type="submit"] {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 1rem;
+  padding: 8px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+
+/* CSS for activity page */
+label.answer {
+  display: block;
+  max-width: 225px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#ansviscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  gap: 50px
+}
+
+.contrast1{
+  background-color: #9BB3EC;
+  color: #424242;
+  padding: 10px;
+}
+
+.contrast2{
+  background-color: #A3FF00;
+  color: #FFF60F;
+  padding: 10px;
+}
+
+.contrast3{
+  background-color: #001A18;
+  color: #1D438A;
+  padding: 10px;
+}
+
+.contrast4{
+  background-color: #FF5000;
+  color: #F441FF;
+  padding: 10px;
+}
+
+@media (max-width: 1180px){
+  .quizContainer{
+    max-width:750px;
+  }
+}
+
+@media (max-width: 685px){
+  .quizContainer{
+    max-width:550px;
+    
+  }
+
+  .quizContainer h1{
+    font-size: 2rem;
+  }
+
+  .quizContainer h3{
+    font-size: 1.1rem;
+  }
+}
